@@ -5,7 +5,7 @@ import Logo from "../images/layout/pixl-logo.svg";
 function MainLayout({ children }) {
   return (
     <div className="flex">
-      <div className="w-[310px] border-r-2 h-[100vh] bg-[#89512A] fixed">
+      <div className="min-w-[310px] border-r-2 h-[100vh] bg-[#89512A] fixed">
         <div className="w-[44px] mt-[50px] flex ml-[50px] items-end">
           <img src={Logo} alt="logo" />
           <h2 className="text-white text-3xl mt-[10px]">ixl</h2>
